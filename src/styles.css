@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color: cornsilk;
+  background-color: (255, 255, 255);
   padding: 40px;
 }
 
@@ -61,15 +61,13 @@ body {
 }
 
 #starters {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 #pasta {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .container {
   list-style-type: none;
-}
-#pizza {
 }

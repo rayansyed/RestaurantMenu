@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  background-color: cornsilk;
+  padding: 40px;
+}
+
+.flag-red {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(238, 80, 80);
+}
+
+.flag-green {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(132, 218, 93);
+}
+
+.spicy:before {
+  width: 16px;
+  height: 16px;
+  content: "";
+  background-image: url("../assets/spicy.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+
+.menuTitle {
+  font-size: 36px;
+}
+
+.itemPrice {
+  font-weight: bold;
+  float: right;
+  text-align: right;
+  font-family: "Barlow", sans-serif;
+  font-size: 22px;
+}
+
+.itemName {
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Barlow", sans-serif;
+}
+
+.itemDesc {
+  font-family: "Barlow", sans-serif;
+  padding-bottom: 15px;
+}
+
+.sectionTitle {
+  font-size: 26px;
+  font-weight: normal;
+}
+
+.pd-font {
+  font-family: "B612", sans-serif;
+  text-transform: uppercase;
+}
+
+#starters {
+  margin-bottom: 100px;
+}
+
+#pasta {
+  margin-bottom: 100px;
+}
+
+.container {
+  list-style-type: none;
+}
+#pizza {
+}
